@@ -12,9 +12,38 @@ body {
     display: flex;
     align-items: center;
     background-color: #cccccc;
-    height: 112px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 240px 24px 240px;
+}
+
+.cabecalho-logo {
+    width: 80px;
+}
+
+.navegacao-principal a {
+    color: #090129;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navegacao-principal {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+
 }
 
 .logo-header {
     width: 80px;
+}
+
+.secao-destaque {
+    background-image: url(imagens/fundo-secao-destaque.png);
+}
+
+.secao-destaque h1 {
+    font-family: "Orbitron", sans-serif;
+    color: #ff55df;
+    font-size: 76px;
 }
