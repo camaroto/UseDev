@@ -39,11 +39,29 @@ body {
 }
 
 .secao-destaque {
+    gap: 56px;
+    padding: 80px 240px 80px 240px;
+    display: flex;
     background-image: url(imagens/fundo-secao-destaque.png);
+}
+
+.secao-destaque span {
+    color: #8FFF24;
 }
 
 .secao-destaque h1 {
     font-family: "Orbitron", sans-serif;
     color: #ff55df;
     font-size: 76px;
+    margin-bottom: 48px;
+}
+
+.botao {
+    background-color: #780bf7;
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 16px 24px 16px 24px;
+    text-decoration: none;
+    border-radius: 50px;
 }
