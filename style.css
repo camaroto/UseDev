@@ -92,12 +92,11 @@ body {
     flex-wrap: wrap;
     gap: 24px;
     justify-content: center;
-}
-
-.cartao{
-    border: solid 1px black;
+    padding: 24px;
 }
 
 .secao-categorias{
+    font-family: 'Orbitron', sans-serif;
     padding: 80px 240px 80px 240px;
+    text-align: center;
 }
