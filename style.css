@@ -73,7 +73,8 @@ body {
     margin-bottom: 48px;
 }
 
-.botao:link, .botao:visited {
+.botao:link,
+.botao:visited {
     background-color: #780bf7;
     color: white;
     font-size: 24px;
@@ -87,7 +88,7 @@ body {
     background-color: #430091;
 }
 
-.cartoes{
+.cartoes {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
@@ -95,8 +96,36 @@ body {
     padding: 24px;
 }
 
-.secao-categorias{
+.secao-categorias {
     font-family: 'Orbitron', sans-serif;
     padding: 80px 240px 80px 240px;
     text-align: center;
+}
+
+.inscreva-se {
+    background-color: #8FFF24;
+    color: #090129;
+    text-align: center;
+    padding: 40px;
+}
+
+.inscreva-se h2 {
+    font-family: "Orbitron", sans-serif;
+    font-size: 32px;
+    margin-bottom: 24px;
+}
+
+.inscreva-se p {
+    font-size: 20px;
+    margin-bottom: 32px;
+}
+
+.inscreva-se input {
+    padding: 16px;
+    border-radius: 32px;
+    width: 658px;
+    background-color: #8FFF24;
+    font-size: 20px;
+    color: #090129;
+    margin-right: 16px;
 }
